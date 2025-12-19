@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Vega | Portfolio</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="main-card">
+
+    <!-- ================= NAV ================= -->
+    <nav class="portfolio-nav">
+        <div class="nav-logo">
+            <img src="https://img.icons8.com/fluency/48/000000/portfolio.png" width="28" alt="logo">
+            <span>Portfolio.av</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#sobre-mi" class="active">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero-minimal">
+        <div class="profile-circle">
+            <img src="https://avatars.githubusercontent.com/u/124648134?v=4" alt="Alejandro Vega">
+        </div>
+
+        <div class="hero-info">
+            <h1>Hola, soy Alejandro</h1>
+            <p class="subtitle">
+                Desarrollador Backend Java | Spring Boot · Laravel · MySQL
+            </p>
+
+            <div class="hero-actions">
+                <a href="CV/CV-Alejandro Vega.pdf" class="btn-blue" download>Descargar CV</a>
+                <a href="#proyectos" class="btn-orange">Ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TECNOLOGÍAS ================= -->
+    <section class="tech-bar">
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/color/48/java-coffee-cup-logo.png">
+            <span>Java</span>
+        </div>
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/color/48/spring-logo.png">
+            <span>Spring Boot</span>
+        </div>
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/color/48/mysql-logo.png">
+            <span>MySQL</span>
+        </div>
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/fluency/48/laravel.png">
+            <span>Laravel + Blade</span>
+        </div>
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/color/48/javascript.png">
+            <span>JS / JSON</span>
+        </div>
+        <div class="tech-unit">
+            <img src="https://img.icons8.com/color/48/html-5.png">
+            <span>HTML & CSS</span>
+        </div>
+    </section>
+
+    <!-- ================= SOBRE MI ================= -->
+    <section id="sobre-mi" class="content-section">
+        <h3 class="section-title">Sobre mí</h3>
+
+        <p>
+            Profesional Técnico en Computación e Informática y estudiante de
+            <strong>Ingeniería de Sistemas</strong>, con experiencia en desarrollo web
+            y soporte técnico.
+        </p>
+
+        <p>
+            Especializado en la creación de soluciones digitales utilizando
+            <strong>Java con Spring Boot</strong>,
+            <strong>Laravel con Blade</strong>,
+            <strong>HTML, CSS y JavaScript</strong>,
+            y gestión de bases de datos con <strong>MySQL</strong>.
+        </p>
+
+        <p>
+            Me caracterizo por mi capacidad analítica para la resolución de problemas,
+            el trabajo en equipo y un fuerte compromiso con el aprendizaje continuo
+            y la mejora constante como desarrollador.
+        </p>
+    </section>
+
+    <!-- ================= HABILIDADES ================= -->
+    <section class="content-section">
+        <h3 class="section-title">Habilidades Técnicas</h3>
+        <ul class="skills-list">
+            <li>Java & Spring Boot (Backend)</li>
+            <li>Laravel con Blade</li>
+            <li>MySQL (modelado y consultas)</li>
+            <li>APIs REST y manejo de JSON</li>
+            <li>HTML5, CSS3 y JavaScript</li>
+            <li>WordPress (desarrollo y personalización)</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- ================= PROYECTOS ================= -->
+    <section id="proyectos" class="content-section">
+        <h3 class="section-title">Proyectos</h3>
+
+        <div class="proyectos-container">
+
+            <div class="project-card">
+                <div class="card-thumb">
+                    <img src="img/FANYLAC.png">
+                </div>
+                <div class="card-body">
+                    <h3>Tienda Virtual Fanylac</h3>
+                    <p>
+                        Plataforma web para visualización de productos,
+                        desarrollada con HTML, CSS y JavaScript.
+                    </p>
+                    <a href="https://avh75.github.io/fanylac-tienda/" class="btn-card-action" target="_blank">
+                        Ver Proyecto
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-thumb">
+                    <img src="img/AVIFARMA.png">
+                </div>
+                <div class="card-body">
+                    <h3>Botica Avifarma</h3>
+                    <p>
+                        Catálogo farmacéutico desarrollado con
+                        Laravel (Blade) y MySQL,
+                        integrando pedidos vía WhatsApp.
+                    </p>
+                    <a href="https://avh75.github.io/avifarma-tienda/" class="btn-card-action" target="_blank">
+                        Ver Proyecto
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-thumb">
+                    <img src="img/BYTSAC.png">
+                </div>
+                <div class="card-body">
+                    <h3>BYTSAC</h3>
+                    <p>
+                        Landing page corporativa desarrollada en WordPress,
+                        optimizada para captación de clientes.
+                    </p>
+                    <a href="https://bytsac.com/" class="btn-card-action" target="_blank">
+                        Ver Sitio Web
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section id="contacto" class="content-section contact-section">
+        <h3 class="section-title">Contacto</h3>
+
+        <p class="contact-text">
+            ¿Te interesa mi perfil o deseas ponerte en contacto conmigo?
+            Estoy disponible para oportunidades como desarrollador backend.
+        </p>
+
+        <div class="contact-actions">
+            <a href="mailto:alejandrovher7@gmail.com" class="btn-blue">
+                📧 Email
+            </a>
+            <a href="https://www.linkedin.com/in/alejandrovegah/" target="_blank" rel="noopener noreferrer"class="btn-orange">
+                💼 LinkedIn
+</a>
+            <a href="https://github.com/avh75" target="_blank" class="btn-outline">
+                🐙 GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <span>© 2025 · Alejandro Vega</span>
+    </footer>
+
+</main>
+
+</body>
+</html>
